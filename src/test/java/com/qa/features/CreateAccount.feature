@@ -29,7 +29,7 @@ Feature: Test Create an account
     And I input assign an address alias for future reference "<assignaddress>"
     And I click on Register button
     Then I verify result when create an account successfully
-
+cg
     Examples: 
       | email                | gender | firstname | lastname | email                | password | day | month   | year | addfirstname | addlastname | addcompany | address  | addressline | city | state     | postalcode | country       | additionalinformation | homephone | mobilephone | assignaddress |
       | huongduong@gmail.com | Mrs    | Huong     | Duong    | huongduong@gmail.com | 12345678 |   3 | January | 1994 | Huong        | Duong       | cty abc    | Tan Binh | Go Vap      | HCM  | Minnesota |      12345 | United States |              12345678 | 102345678 |   123456789 | TB-HCM        |
